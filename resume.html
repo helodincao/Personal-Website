@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <title>Heloisa D'Incao | Resume</title>
+    <meta name="description" content="Resume of Heloisa D'Incao." />
+
+    <style>
+      body {
+        font-family: "Poppins", system-ui, sans-serif;
+        background: #fafbdd;
+      }
+
+      .resume-card {
+        background: #ffffff;
+        border-radius: 18px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+      }
+
+      .section-title {
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        margin-top: 1.25rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .muted {
+        color: rgba(0, 0, 0, 0.62);
+      }
+
+      .pill {
+        display: inline-block;
+        padding: 0.35rem 0.7rem;
+        border-radius: 999px;
+        background: #f1f0ff;
+        font-size: 0.9rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .role-title {
+        font-weight: 600;
+        margin-bottom: 0.15rem;
+      }
+
+      .company-line {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+        align-items: baseline;
+      }
+
+      .hr-soft {
+        border: 0;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.08);
+        margin: 1.25rem 0;
+      }
+
+      @media print {
+        body {
+          background: #ffffff;
+        }
+        .resume-card {
+          box-shadow: none;
+          border: 1px solid rgba(0, 0, 0, 0.08);
+        }
+      }
+    </style>
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <h1 class="m-3">Heloisa D'Incao</h1>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="home.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
+              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex-grow-1">
+      <div class="container mt-4 mb-5">
+        <div class="resume-card p-4 p-md-5">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+            <div>
+              <h2 class="mb-1">Heloisa D'Incao's Resume</h2>
+              <p class="muted mb-0">
+                Computer Science student with experience in autonomy software, data tooling, and customer-facing product improvements.
+              </p>
+            </div>
+
+            <div class="text-md-end">
+              <div class="mb-1">
+                <a class="text-decoration-none" href="mailto:hedi9220@colorado.edu">hedi9220@colorado.edu</a>
+              </div>
+              <div class="mb-1">
+                <a class="text-decoration-none" href="tel:3038985880">303 898 5880</a>
+              </div>
+              <div>
+                <a
+                  class="text-decoration-none"
+                  href="https://www.linkedin.com/in/heloisa-d-incao-6848ba283/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="hr-soft" />
+
+          <h3 class="section-title">Education</h3>
+          <div class="company-line">
+            <div class="role-title">University of Colorado, Boulder</div>
+            <div class="muted">Boulder, CO</div>
+            <div class="muted">Expected May 2027</div>
+          </div>
+          <div class="mt-1">
+            <span class="pill">B.A. Computer Science</span>
+            <span class="pill">Minor Physics</span>
+            <span class="pill">Minor Sociology</span>
+          </div>
+          <p class="mb-0">
+            <span class="role-title">Relevant Coursework:</span>
+            Calculus I III, Linear Algebra, Database Systems, Algorithms, Marketing, Management
+          </p>
+
+          <hr class="hr-soft" />
+
+          <h3 class="section-title">Experience</h3>
+
+          <div class="mb-4">
+            <div class="company-line">
+              <div class="role-title">High level Software Lead</div>
+              <div class="muted">CU Hyperloop</div>
+              <div class="muted">Nov 2024 to Present</div>
+            </div>
+            <ul class="mt-2 mb-0">
+              <li>
+                Implemented high-level autonomy architecture for a 12 ft, 2,000 lb semi autonomous tunnel boring machine designed to dig 100 feet for the Not a Boring Competition.
+              </li>
+              <li>
+                Developed a finite state machine controller, reducing high-level build time by about 50 percent to enable earlier integration and testing.
+              </li>
+              <li>
+                Led migration from a behavior tree framework to a finite state machine to streamline logic, reduce ambiguity, and improve robustness and maintainability.
+              </li>
+              <li>
+                Built a Plotly Dash simulation and visualization to validate the trajectory planner with an integrated hexapod model and support deviation detection and correction for a machine that cannot be accessed after launch.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-4">
+            <div class="company-line">
+              <div class="role-title">Software Intern</div>
+              <div class="muted">Terra Value</div>
+              <div class="muted">Jul 2024 to Sep 2024</div>
+            </div>
+            <ul class="mt-2 mb-0">
+              <li>
+                Solely developed and tested a Java API that parses HTML and extracts U.S. bank data to identify institutions underperforming mortgage lending to minorities, cutting manual research by about 99.95 percent.
+              </li>
+              <li>
+                Built benchmarking outputs by defining peer groups and ranking institutions, generating lists of the 1,000 plus largest and most underperforming banks for review.
+              </li>
+              <li>
+                Recommended UI improvements during demo reviews including filters, tooltips, and summary KPIs to make data easier to scan and act on.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-4">
+            <div class="company-line">
+              <div class="role-title">Office Manager and Sales</div>
+              <div class="muted">The Ritz Costumes</div>
+              <div class="muted">Aug 2024 to Present</div>
+            </div>
+            <ul class="mt-2 mb-0">
+              <li>
+                Managed payroll organization, financial records, and invoices to support accurate documentation and timely payments.
+              </li>
+              <li>
+                Built hands-on bookkeeping and operational organization skills for daily store workflows.
+              </li>
+              <li>
+                Consistently ranked first or second in monthly sales, driving high value deals and repeat business.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="company-line">
+              <div class="role-title">Service and Retail</div>
+              <div class="muted">Prior Experience</div>
+              <div class="muted">May 2020 to Aug 2024</div>
+            </div>
+            <ul class="mt-2 mb-0">
+              <li>
+                Consistently employed since 2020 in fast-paced, high-pressure environments while delivering reliable service and strong team energy.
+              </li>
+            </ul>
+          </div>
+
+          <hr class="hr-soft" />
+
+          <h3 class="section-title">Skills</h3>
+          <div class="mb-2">
+            <span class="pill">Python</span>
+            <span class="pill">C++</span>
+            <span class="pill">C</span>
+            <span class="pill">HTML</span>
+            <span class="pill">Java</span>
+            <span class="pill">SQL</span>
+          </div>
+          <div class="mb-0">
+            <span class="pill">Redis</span>
+            <span class="pill">Arduino</span>
+            <span class="pill">Qt</span>
+            <span class="pill">APIs</span>
+            <span class="pill">Plotly Dash</span>
+            <span class="pill">MQTT</span>
+            <span class="pill">Git and GitHub</span>
+            <span class="pill">Behavior Trees</span>
+            <span class="pill">Finite State Machines</span>
+          </div>
+
+          <hr class="hr-soft" />
+
+          <h3 class="section-title">Interests and Personal Projects</h3>
+
+          <div class="mb-3">
+            <div class="role-title">Quantum Computing Lecture (audited)</div>
+            <p class="mb-0">
+              Covered qubits, superposition and entanglement, and algorithm basics, with ongoing self study in quantum mechanics.
+            </p>
+          </div>
+
+          <div>
+            <div class="role-title">Independent Podcast: The Erasure of Culture</div>
+            <p class="mb-0">
+              Produced a research-driven podcast exploring how popularization can erase original cultural context, including research, interviewing, scripting, recording, and editing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-body-tertiary text-center py-3 mt-5">
+      <div class="container">
+        <p class="mb-2">&copy; <span id="year">2026</span> Heloisa D'Incao</p>
+        <div class="d-flex justify-content-center align-items-center gap-3">
+          <a
+            href="https://www.linkedin.com/in/heloisa-d-incao-6848ba283/"
+            target="_blank"
+            rel="noopener"
+            class="mx-2"
+          >
+            <img src="../resources/img/linkedin.png" alt="LinkedIn" width="30" />
+          </a>
+          <a href="mailto:hedi9220@colorado.edu" class="text-decoration-none">
+            hedi9220@colorado.edu
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
